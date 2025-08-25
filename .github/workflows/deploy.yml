@@ -26,8 +26,9 @@ jobs:
       run: flutter build web --release
 
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v1
+      uses: actions/upload-artifact@v3  # Updated to the latest version
       with:
+        name: web-artifact
         path: build/web
 
     - name: Deploy to GitHub Pages

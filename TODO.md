@@ -12,8 +12,10 @@ GitHub Pages error: "No such file or directory @ dir_chdir0 - /github/workspace/
 ## Next Steps
 - [ ] Commit and push the changes to GitHub repository
 - [ ] Go to GitHub repository Settings → Pages
-- [ ] Configure GitHub Pages source to use "GitHub Actions"
-- [ ] Select the "Deploy to GitHub Pages" workflow
+- [ ] Configure GitHub Pages:
+  - **Source**: Select "GitHub Actions"
+  - **Workflow**: From the dropdown, select "Deploy to GitHub Pages"
+  - **Branch**: Leave as default (uses built files from workflow)
 - [ ] Wait for the workflow to run automatically on push to master
 - [ ] Verify deployment at https://arnold254-25.github.io/bahm/
 

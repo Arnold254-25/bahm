@@ -12,8 +12,14 @@ Your Flutter web app will be available at: **https://arnold254-25.github.io/bahm
 3. **Scroll down to "Pages"** in the left sidebar
 
 4. **Configure GitHub Pages**:
-   - **Source**: Select "GitHub Actions"
-   - **Workflow**: Select the "Deploy to GitHub Pages" workflow
+   - **Source**: Select "GitHub Actions" from the dropdown menu
+   - **Workflow**: After selecting GitHub Actions, a second dropdown will appear below it. Click this dropdown and select "Deploy to GitHub Pages" from the list of available workflows
+   - **Branch**: Leave as default (it will use the built files from the workflow)
+
+   **Visual Guide**:
+   - First dropdown: Change from "Deploy from a branch" to "GitHub Actions"
+   - Second dropdown: Appears below - this is where you select "Deploy to GitHub Pages"
+   - No need to change branch selection as it uses the workflow output
 
 5. **Wait for Deployment**:
    - The GitHub Actions workflow will automatically build and deploy your Flutter app when you push to master

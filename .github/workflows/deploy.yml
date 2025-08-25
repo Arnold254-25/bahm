@@ -25,14 +25,14 @@ jobs:
     - name: Build web app
       run: flutter build web --release
 
+    - name: Setup Pages
+      uses: actions/configure-pages@v3
+
     - name: Upload artifact
-      uses: actions/upload-artifact@v3  # Updated to the latest version
+      uses: actions/upload-pages-artifact@v1
       with:
-        name: web-artifact
         path: build/web
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build/web
+      id: deployment
+      uses: actions/deploy-pages@v2

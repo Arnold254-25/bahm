@@ -11,11 +11,11 @@ Your Flutter web app is set up to deploy automatically to GitHub Pages when you 
    flutter build web --release --base-href /bahm/
    ```
 
-2. **Commit and push your changes** to the main branch:
+2. **Commit and push your changes** to the master branch:
    ```bash
    git add .
    git commit -m "Deploy to GitHub Pages"
-   git push origin main
+   git push origin master
    ```
 
 3. **Check GitHub Actions**:

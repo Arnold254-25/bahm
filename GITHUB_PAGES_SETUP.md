@@ -13,10 +13,10 @@ Your Flutter web app will be available at: **https://arnold254-25.github.io/bahm
 
 4. **Configure GitHub Pages**:
    - **Source**: Select "GitHub Actions"
-   - **Branch**: This will be automatically managed by the workflow
+   - **Workflow**: Select the "Deploy to GitHub Pages" workflow
 
 5. **Wait for Deployment**:
-   - The GitHub Actions workflow will automatically build and deploy your Flutter app
+   - The GitHub Actions workflow will automatically build and deploy your Flutter app when you push to master
    - You can monitor progress in the "Actions" tab of your repository
 
 6. **Access Your Live Site**:
@@ -34,3 +34,4 @@ flutter run -d chrome
 - If the site doesn't load immediately, wait 5-10 minutes and refresh
 - Check the GitHub Actions tab for any deployment errors
 - Ensure all required files are committed to the master branch
+- If you get "No such file or directory @ dir_chdir0 - /github/workspace/docs" error, make sure the GitHub Actions workflow is properly configured

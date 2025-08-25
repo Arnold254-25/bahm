@@ -1,0 +1,27 @@
+[debug] [2025-08-15T12:04:41.676Z] ----------------------------------------------------------------------
+[debug] [2025-08-15T12:04:41.699Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init firestore --project whitedov-d2bea
+[debug] [2025-08-15T12:04:41.700Z] CLI Version:   14.4.0
+[debug] [2025-08-15T12:04:41.700Z] Platform:      win32
+[debug] [2025-08-15T12:04:41.700Z] Node Version:  v22.15.0
+[debug] [2025-08-15T12:04:41.701Z] Time:          Fri Aug 15 2025 15:04:41 GMT+0300 (East Africa Time)
+[debug] [2025-08-15T12:04:41.701Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-15T12:04:41.937Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-08-15T12:04:41.948Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-15T12:04:41.948Z] > authorizing via signed-in user (midambaarnoldtony@gmail.com)
+[debug] [2025-08-15T12:04:41.949Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\pc\bahm
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
